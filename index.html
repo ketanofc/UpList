@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="512x512" href="#">
+    <link rel="icon" type="image/png" sizes="192x192" href="#">
+    <link rel="apple-touch-icon" href="#">
+    <title>UpList</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--===============================================-->
+    <!-------------------NAVIGATION---------------------->
+    <!--===============================================-->
+    <nav class="navbar navbar-expand-md fixed-top navbar-custom py-2 px-3">
+        <div class="container-fluid px-md-5">
+            <a class="navbar-brand fw-bold" href="#home">uplist</a>
+            <button class="navbar-toggler ms-auto border-0" data-bs-target="#navMenu" data-bs-toggle="collapse"
+                type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav gap-3 text-center text-md-start">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#joinwaitlist">Join The Waitlist</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--===============================================-->
+    <!-----------------------HERO------------------------>
+    <!--===============================================-->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="join-waitlist text-center mb-3">
+                <a href="#waitlist" class="join-curefast-btn">
+                    <i class="fas fa-user-plus"></i>Join The UpList Circle ♥️
+                </a>
+            </div>
+            <h1>India’s 1st ONDC marketplace</h1>
+            <p>with UpList, discover quality items nearby and turn your unused stuff into cash, powered by ONDC and
+                trusted by 1000+ people.</p>
+            <span></span>
+            <br>
+            <p class="sub-note">Coming Soon</p>
+            <div class="store-buttons">
+                <a href="#"><img alt="Google Play"
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" /></a>
+                <a href="#"><img alt="App Store"
+                        src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" /></a>
+            </div>
+        </div>
+        <br>
+    </section>
+    <!--===============================================-->
+    <!-----------------------STATS----------------------->
+    <!--===============================================-->
+    <section id="stats" style="background: #f1f4f6; padding: 60px 20px;" class="stats-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-6 col-md-3 stat-block">
+                    <h5 class="counter" data-target="1000">0</h5>
+                    <p>Items Posted</p>
+                </div>
+                <div class="col-6 col-md-3 stat-block">
+                    <h5 class="counter" data-target="500">0</h5>
+                    <p>Sellers Onboarded</p>
+                </div>
+                <div class="col-6 col-md-3 stat-block mt-4 mt-md-0">
+                    <h5 class="counter" data-target="200">0</h5>
+                    <p>Verified Buyers</p>
+                </div>
+                <div class="col-6 col-md-3 stat-block mt-4 mt-md-0">
+                    <h5 class="counter" data-target="10000">0</h5>
+                    <p>Transactions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===============================================-->
+    <!-------------------JOIN UPLIST--------------------->
+    <!--===============================================-->
+    <section id="joinwaitlist" style="background: #ffffff; padding: 60px 20px;">
+        <div class="container" style="max-width: 1100px;">
+            <div class="text-center mb-5">
+                <br>
+                <div
+                    style="display: inline-flex; align-items: center; gap: 6px; background: #f1f4f6; padding: 8px 18px; border-radius: 40px; font-size: 14px; font-weight: 600; color: #333;">
+                    <i class="fas fa-map-marker-alt"></i> Explore Locale
+                </div>
+                <h2 style="font-weight: 800; font-size: 2rem; margin-top: 20px;">Start Selling or Buying with UpList
+                </h2>
+                <p style="color: #666; max-width: 700px; margin: 10px auto 0;">Sell what you don’t need or find what you
+                    want, powered by ONDC.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Seller Card -->
+                <div class="col-md-6">
+                    <div class="p-4 border rounded-4 h-100 text-left bg-white">
+                        <img src="https://i.ibb.co/nMgpsmS0/1000011941.png" alt="Seller"
+                            style="width: 100%; max-height: 180px; object-fit: cover; border-radius: 14px;"
+                            class="mb-3">
+                        <h5 class="fw-bold">Join as a Seller</h5>
+                        <ul class="text-start ps-3 mt-3" style="font-size: 15px; line-height: 1.7;">
+                            <li>List your items easily with photos & price</li>
+                            <li>Zero commission for first 3 months</li>
+                            <li>Reach buyers in your local area</li>
+                            <li>ONDC-backed network with verified users</li>
+                        </ul>
+                        <a href="#" class="btn mt-3 w-100"
+                            style="background-color: #002B5B; color: #fff; font-weight: 600; border-radius: 8px;">Join
+                            as Seller</a>
+                    </div>
+                </div>
+
+                <!-- Buyer Card -->
+                <div class="col-md-6">
+                    <div class="p-4 border rounded-4 h-100 text-left bg-white">
+                        <img src="https://i.ibb.co/0pSXL1mH/IMG-20250607-140708.png" alt="Buyer"
+                            style="width: 100%; max-height: 180px; object-fit: cover; border-radius: 14px;"
+                            class="mb-3">
+                        <h5 class="fw-bold">Join as a Buyer</h5>
+                        <ul class="text-start ps-3 mt-3" style="font-size: 15px; line-height: 1.7;">
+                            <li>Discover local deals and rare finds</li>
+                            <li>Chat directly with sellers</li>
+                            <li>Safe, peer-to-peer buying experience</li>
+                            <li>Trusted by 1000+ buyers already</li>
+                        </ul>
+                        <a href="#" class="btn mt-3 w-100"
+                            style="background-color: #002B5B; color: #fff; font-weight: 600; border-radius: 8px;">Join
+                            as Buyer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===============================================-->
+    <!-----------------------FAQs------------------------>
+    <!--===============================================-->
+    <section id="faq" style="background: #fff; padding: 60px 20px;">
+        <div class="container" style="max-width: 800px;">
+            <div class="text-center mb-4">
+                <div
+                    style="display: inline-flex; align-items: center; gap: 6px; background: #f1f4f6; padding: 8px 18px; border-radius: 40px; font-size: 14px; font-weight: 600; color: #333;">
+                    <i class="fas fa-question-circle"></i> FAQ’s
+                </div>
+                <h2 style="font-weight: 800; font-size: 1.8rem; margin-top: 20px;">Common Asked Questions</h2>
+            </div>
+            <div id="curefastFaqClean">
+                <!--========== SHOWN FAQs ==========-->
+                <div class="faq-item border rounded-4 p-3 mb-3">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq1" data-bs-toggle="collapse">
+                        What exactly is UpList?
+                    </button>
+                    <div class="collapse pt-2" id="faq1">
+                        <p class="mb-0 text-muted">UpList is a next-generation C2C (consumer-to-consumer) marketplace
+                            where individuals can buy and sell quality pre-owned and new goods. Powered by India’s ONDC
+                            network, UpList ensures secure transactions, verified sellers, and faster logistics.</p>
+                    </div>
+                </div>
+                <div class="faq-item border rounded-4 p-3 mb-3">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq2" data-bs-toggle="collapse">
+                        How does buying or selling on UpList work?
+                    </button>
+                    <div class="collapse pt-2" id="faq2">
+                        <p class="mb-0 text-muted">It’s super easy. If you’re selling, just snap a photo, list your
+                            item, and wait for buyers to reach out. If you’re buying, browse what you need, chat with
+                            the seller, and place your order. We handle the delivery and payments through our trusted
+                            ONDC partners.</p>
+                    </div>
+                </div>
+                <div class="faq-item border rounded-4 p-3 mb-3">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq3" data-bs-toggle="collapse">
+                        Do I need to pay to use UpList?
+                    </button>
+                    <div class="collapse pt-2" id="faq3">
+                        <p class="mb-0 text-muted">Nope, listing your items is completely free. We only take a small fee
+                            after a successful transaction to help keep the platform running smoothly and securely.</p>
+                    </div>
+                </div>
+                <div class="faq-item border rounded-4 p-3 mb-3">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq4" data-bs-toggle="collapse">
+                        What kind of stuff can I sell here?
+                    </button>
+                    <div class="collapse pt-2" id="faq4">
+                        <p class="mb-0 text-muted">You can sell almost anything in good condition. Popular items include
+                            smartphones, laptops, TVs, books, clothes, bikes, cars, furniture, home appliances, and
+                            more. As long as it’s legal and useful, someone’s probably looking for it.</p>
+                    </div>
+                </div>
+                <div class="faq-item border rounded-4 p-3 mb-3">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq5" data-bs-toggle="collapse">
+                        How do I know if a seller or product is trustworthy?
+                    </button>
+                    <div class="collapse pt-2" id="faq5">
+                        <p class="mb-0 text-muted">Every user has a profile with ratings, reviews, and a trust score. We
+                            also verify identities and monitor activity to help you buy and sell with confidence.</p>
+                    </div>
+                </div>
+                <!--========== HIDDEN FAQs ==========-->
+                <div class="faq-item border rounded-4 p-3 mb-3 d-none extra-faq">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq6" data-bs-toggle="collapse">
+                        How are items delivered after purchase?
+                    </button>
+                    <div class="collapse pt-2" id="faq6">
+                        <p class="mb-0 text-muted">Once your item is sold, we arrange for a reliable pickup and delivery
+                            using ONDC-enabled logistics partners. In many areas, deliveries happen within 24 hours or
+                            even on the same day.</p>
+                    </div>
+                </div>
+                <div class="faq-item border rounded-4 p-3 mb-3 d-none extra-faq">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq7" data-bs-toggle="collapse">
+                        How is UpList different from other marketplaces like OLX or Quikr?
+                    </button>
+                    <div class="collapse pt-2" id="faq7">
+                        <p class="mb-0 text-muted">UpList is built with modern users in mind. It’s cleaner, faster, and
+                            designed around trust. We don’t just connect people — we also provide verified profiles,
+                            secure payments, fast deliveries, and responsive customer support.</p>
+                    </div>
+                </div>
+                <div class="faq-item border rounded-4 p-3 mb-3 d-none extra-faq">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq8" data-bs-toggle="collapse">
+                        How do I report a fake or suspicious listing?
+                    </button>
+                    <div class="collapse pt-2" id="faq8">
+                        <p class="mb-0 text-muted">If you come across a suspicious item or seller, tap the “Report”
+                            button on the listing. Our moderation team will investigate and take appropriate action.</p>
+                    </div>
+                </div>
+                <div class="faq-item border rounded-4 p-3 mb-3 d-none extra-faq">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq9" data-bs-toggle="collapse">
+                        What payment methods are accepted?
+                    </button>
+                    <div class="collapse pt-2" id="faq9">
+                        <p class="mb-0 text-muted">We accept all major UPI apps, debit/credit cards, and net banking
+                            through ONDC’s secure payment gateway. Cash on delivery may be available in select areas.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item border rounded-4 p-3 mb-3 d-none extra-faq">
+                    <button aria-expanded="false"
+                        class="faq-toggle w-100 text-start fw-semibold border-0 bg-transparent p-0"
+                        data-bs-target="#faq10" data-bs-toggle="collapse">
+                        How do I contact UpList support?
+                    </button>
+                    <div class="collapse pt-2" id="faq10">
+                        <p class="mb-0 text-muted">You can reach our support team via the Help Center in the app or
+                            website, or email us at info@uplist.co.in We’re available 7 days a week to assist you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button class="btn px-4 py-2" id="viewMoreFaqBtn"
+                    style="background: #f1f4f6; color: #111; font-weight: 600; border-radius: 40px;">View more</button>
+            </div>
+        </div>
+    </section>
+    <!--===============================================-->
+    <!----------------------FOOTER----------------------->
+    <!--===============================================-->
+    <footer style="background-color: #002B5B; color: #fff; padding: 60px 20px 30px;">
+        <div class="container" style="max-width: 1100px;">
+            <div class="row align-items-start justify-content-between g-4">
+                <!-- Brand Info -->
+                <div class="col-md-4">
+                    <h4 style="font-weight: 700; font-size: 1.6rem;">uplist</h4>
+                    <p style="font-size: 14px; color: #ccc; line-height: 1.6; margin-top: 10px;">
+                        India’s most trusted peer-to-peer marketplace, built on ONDC. Buy. Sell. Trade local.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h6 class="text-uppercase fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled" style="font-size: 14px; line-height: 2;">
+                        <li><a href="#" style="color: #fff; text-decoration: none;">About Us</a></li>
+                        <li><a href="#" style="color: #fff; text-decoration: none;">Privacy Policy</a></li>
+                        <li><a href="#" style="color: #fff; text-decoration: none;">Terms & Conditions</a></li>
+                        <li><a href="#" style="color: #fff; text-decoration: none;">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social / App -->
+                <div class="col-md-4">
+                    <h6 class="text-uppercase fw-bold mb-3">Get the App</h6>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="#"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                style="max-width: 160px;"></a>
+                        <a href="#"><img
+                                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                style="max-width: 160px;"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 40px 0;">
+
+            <div class="text-center" style="font-size: 13px; color: #aaa;">
+                © UpList V0.0.1 • Built with ♥️ in India
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
